@@ -223,6 +223,57 @@ a {
 
 /* Команда */
 
+/* <ul class="team-social">
+            <li>
+              <a href="" aria-label="Ссылка на инстаграм" class="link"
+                >Инстаграм</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на линкедин" class="link"
+                >Линкедин</a
+              >
+            </li>
+          </ul> */
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.team-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.social-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.social-item {
+  width: 270px;
+  margin-right: 10px;
+}
+
+.social-item:last-child {
+  margin-right: 0;
+}
+
+.social-item:nth-child(4n + 1) {
+  margin-right: 11px;
+}
+
 .section-team {
   margin-bottom: 94px;
   padding-top: 94px;
