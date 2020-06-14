@@ -39,7 +39,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid teal;
+  /* outline: 2px solid teal; */
 }
 
 .logo {
@@ -146,7 +146,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 
 /* Преимущества */
@@ -203,8 +203,6 @@ a {
   margin-right: 0;
 }
 
-/* class="example-list list" */
-
 .example-tittle {
   margin-top: 94px;
   margin-bottom: 50px;
@@ -217,30 +215,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-/* .example-list {
-  margin-bottom: 94px;
-} */
-
 /* Команда */
-
-/* <ul class="team-social">
-            <li>
-              <a href="" aria-label="Ссылка на инстаграм" class="link"
-                >Инстаграм</a
-              >
-            </li>
-            <li>
-              <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
-            </li>
-            <li>
-              <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
-            </li>
-            <li>
-              <a href="" aria-label="Ссылка на линкедин" class="link"
-                >Линкедин</a
-              >
-            </li>
-          </ul> */
 
 .team-list {
   display: flex;
@@ -322,29 +297,6 @@ a {
 
 /* Постоянные клиенты */
 
-/* <ul class="clients-link list">
-            <li class="clients-item">
-              <a href="" aria-label="Ссылка на клиента 1" class="link"
-                >Клиент 1</a
-              >
-              <a href="" aria-label="Ссылка на клиента 2" class="link"
-                >Клиент 2</a
-              >
-              <a href="" aria-label="Ссылка на клиента 3" class="link"
-                >Клиент 3</a
-              >
-              <a href="" aria-label="Ссылка на клиента 4" class="link"
-                >Клиент 4</a
-              >
-              <a href="" aria-label="Ссылка на клиента 5" class="link"
-                >Клиент 5</a
-              >
-              <a href="" aria-label="Ссылка на клиента 6" class="link"
-                >Клиент 6</a
-              >
-            </li>
-          </ul> */
-
 .clients-list {
   display: flex;
   flex-wrap: wrap;
@@ -352,7 +304,6 @@ a {
 }
 
 .clients-item {
-  /* width: 170px; */
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
 }
@@ -407,10 +358,9 @@ a {
 .footer {
   display: flex;
   align-items: baseline;
-  /* margin-bottom: 28px; */
   padding-top: 48px;
 
-  background-color: green;
+  /* background-color: green; */
 }
 
 .footer-flex {
@@ -509,7 +459,7 @@ a {
   justify-content: center;
   align-items: center;
   padding-bottom: 21px;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 .copyright {
   color: var(--copyright-color);
@@ -525,6 +475,13 @@ a {
 }
 
 /* PORTFOLIO!! */
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 93px;
+  margin-bottom: 50px;
+}
+
 .btn .button:hover,
 .btn .button:focus {
   background-color: var(--accent-color);
@@ -532,11 +489,17 @@ a {
 }
 
 .button {
+  margin-right: 8px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.button:last-child {
+  margin-right: 0;
 }
 
 .work {
