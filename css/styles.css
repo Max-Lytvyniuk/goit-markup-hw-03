@@ -278,7 +278,6 @@ a {
   margin-bottom: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: tomato;
 }
 
 .team-tittle,
@@ -322,6 +321,46 @@ a {
 }
 
 /* Постоянные клиенты */
+
+/* <ul class="clients-link list">
+            <li class="clients-item">
+              <a href="" aria-label="Ссылка на клиента 1" class="link"
+                >Клиент 1</a
+              >
+              <a href="" aria-label="Ссылка на клиента 2" class="link"
+                >Клиент 2</a
+              >
+              <a href="" aria-label="Ссылка на клиента 3" class="link"
+                >Клиент 3</a
+              >
+              <a href="" aria-label="Ссылка на клиента 4" class="link"
+                >Клиент 4</a
+              >
+              <a href="" aria-label="Ссылка на клиента 5" class="link"
+                >Клиент 5</a
+              >
+              <a href="" aria-label="Ссылка на клиента 6" class="link"
+                >Клиент 6</a
+              >
+            </li>
+          </ul> */
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.clients-item {
+  /* width: 170px; */
+  width: calc((100% - 150px) / 6);
+  margin-right: 30px;
+}
+
+.clients-item:nth-child(6n) {
+  margin-right: 0;
+}
+
 .clients-tittle {
   margin-top: 0;
   margin-bottom: 50px;
