@@ -39,7 +39,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid teal; */
+  outline: 2px solid teal;
 }
 
 .logo {
@@ -139,6 +139,10 @@ a {
   margin-top: 0;
   margin-bottom: 46px;
 
+  width: 646px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -146,7 +150,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /* background-color: yellowgreen; */
+  background-color: yellowgreen;
 }
 
 /* Преимущества */
@@ -163,6 +167,24 @@ a {
 
 .features-item:nth-child(4n) {
   margin-right: 0;
+}
+
+.future-pic-container {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
+
+.future-pic {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-tittle {
@@ -369,6 +391,13 @@ a {
 
 /* Footer */
 footer {
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: #2f303a;
 }
 
