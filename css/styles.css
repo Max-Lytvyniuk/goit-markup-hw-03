@@ -245,6 +245,11 @@ a {
   letter-spacing: 0.03em;
 }
 
+.example-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Команда */
 
 .team {
