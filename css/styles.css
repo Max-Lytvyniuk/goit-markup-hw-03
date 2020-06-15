@@ -39,7 +39,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid teal;
+  /* outline: 2px solid teal; */
 }
 
 .logo {
@@ -150,10 +150,14 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 
 /* Преимущества */
+.features {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 
 .features-list {
   display: flex;
@@ -201,7 +205,7 @@ a {
 
 .features-text {
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 
   font-weight: normal;
   font-size: 14px;
@@ -210,6 +214,10 @@ a {
 }
 
 /* Чем мы занимемся */
+
+.example {
+  margin-bottom: 94px;
+}
 
 .example-list {
   display: flex;
@@ -226,7 +234,7 @@ a {
 }
 
 .example-tittle {
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 50px;
 
   color: var(--tittle-text-color);
@@ -238,6 +246,11 @@ a {
 }
 
 /* Команда */
+
+.team {
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
 
 .team-list {
   display: flex;
@@ -276,12 +289,6 @@ a {
 
 .social-item:nth-child(4n + 1) {
   margin-right: 11px;
-}
-
-.section-team {
-  margin-bottom: 94px;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .team-tittle,
@@ -332,10 +339,14 @@ a {
 
 /* Постоянные клиенты */
 
+.clients {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
 .clients-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .clients-item {
@@ -565,6 +576,8 @@ footer {
 .work {
   display: flex;
   flex-wrap: wrap;
+
+  margin-bottom: 94px;
 }
 
 .work-item {
@@ -581,7 +594,7 @@ footer {
 }
 
 .work-item:nth-last-child(-n + 3) {
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 /* .work {
