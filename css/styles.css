@@ -558,7 +558,6 @@ footer {
 .btn {
   display: flex;
   justify-content: center;
-  /* margin-top: 93px; */
   margin-bottom: 50px;
 }
 
