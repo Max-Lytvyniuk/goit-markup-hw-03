@@ -137,6 +137,8 @@ img {
 /* Hero */
 .hero {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 .hero-tittle {
@@ -159,7 +161,7 @@ img {
 
 /* Преимущества */
 .features {
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 94px;
 }
 
@@ -549,10 +551,14 @@ footer {
 }
 
 /* PORTFOLIO!! */
+.portfolio-margin {
+  margin-bottom: 93px;
+}
+
 .btn {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
+  /* margin-top: 93px; */
   margin-bottom: 50px;
 }
 
@@ -583,10 +589,13 @@ footer {
 }
 
 .work {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+
+.work-list {
   display: flex;
   flex-wrap: wrap;
-
-  margin-bottom: 94px;
 }
 
 .work-item {
@@ -622,7 +631,7 @@ footer {
   margin-right: 0;
 } */
 
-.work .work-tittle {
+.work-list .work-tittle {
   margin-top: 20px;
   margin-bottom: 4px;
 
@@ -640,7 +649,7 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.work .work-text {
+.work-list .work-text {
   margin-top: 0;
   margin-bottom: 0;
 
